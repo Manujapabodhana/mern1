@@ -17,9 +17,9 @@ function search() {
         if (httpRequest.status === 200) {
             console.log(httpRequest.response); 
         }
+    }
 
-    
-
+    httpRequest.send();
     
     // Add your search logic here
     console.log('Searching for:', value);
